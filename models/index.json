@@ -4,7 +4,7 @@
   "title": "Eiffel Tower",
   "note": "Design options in the branch list",
   "shapes": 330,
-  "bytes": 20910330,
+  "bytes": 29235416,
   "options": [
    "Twisted",
    "Tripod",
@@ -23,9 +23,53 @@
   "title": "Escher playground",
   "note": "Boards with scripts to try; pins where the illusions close",
   "shapes": 499,
-  "bytes": 1282462,
+  "bytes": 1163126,
   "options": [],
   "pins": 5,
+  "picture": true,
+  "internal": false,
+  "public": true
+ },
+ {
+  "name": "panorama",
+  "title": "Hotel Panorama",
+  "note": "\u0160trbsk\u00e9 Pleso, as on Molchat Doma's Etazhi; its 1970 design an option",
+  "shapes": 557,
+  "bytes": 1535661,
+  "options": [
+   "Panorama-1970"
+  ],
+  "pins": 0,
+  "picture": true,
+  "internal": false,
+  "public": true
+ },
+ {
+  "name": "sphere-options",
+  "title": "The Sphere",
+  "note": "Its screen's programs in the option list: MIB, Eye, Emoji, Earth, Fireworks, Off",
+  "shapes": 734,
+  "bytes": 4547225,
+  "options": [
+   "Eye",
+   "Emoji",
+   "Earth",
+   "Fireworks",
+   "Off"
+  ],
+  "pins": 0,
+  "picture": true,
+  "internal": false,
+  "public": true
+ },
+ {
+  "name": "nervi",
+  "title": "Palazzo dell'Acqua e della Luce",
+  "note": "Nervi's design for E42, never built, as on Molchat Doma's Belaya Polosa",
+  "shapes": 605,
+  "bytes": 781751,
+  "options": [],
+  "pins": 0,
   "picture": true,
   "internal": false,
   "public": true
