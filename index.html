@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIB models</title>
+<style>
+:root { --paper: #f3eee4; --card: #fbf8f2; --ink: #2a2622; --mute: #7a7066; --line: #ddd3c4; --accent: #a8432c; }
+@media (prefers-color-scheme: dark) { :root { --paper: #1d1b19; --card: #262320; --ink: #ece6dc; --mute: #a39a8f; --line: #3a3530; --accent: #d9765c; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { padding: 28px 24px 8px; max-width: 1200px; margin: 0 auto; display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+h1 { font-size: 26px; margin: 0; letter-spacing: -0.01em; }
+header span { color: var(--mute); font-size: 13px; }
+main { max-width: 1200px; margin: 0 auto; padding: 16px 24px 40px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+a.card { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; color: inherit; text-decoration: none; transition: border-color .15s, transform .15s; }
+a.card:hover, a.card:focus-visible { border-color: var(--accent); transform: translateY(-2px); outline: none; }
+.pic { aspect-ratio: 4 / 3; background: var(--line) center / cover no-repeat; }
+.body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 4px; }
+h2 { font-size: 17px; margin: 0; }
+.note { color: var(--mute); font-size: 13px; }
+.meta { color: var(--mute); font-size: 12px; font-variant-numeric: tabular-nums; }
+.opts { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.opts span { font-size: 11px; padding: 1px 7px; border: 1px solid var(--line); border-radius: 999px; color: var(--mute); }
+.opts span.internal { color: var(--accent); border-color: var(--accent); }
+.opts span.part { color: var(--ink); }
+.opts span.part::before { content: '\2197\FE0E'; margin-right: 3px; color: var(--mute); }
+@media (max-width: 480px) { header, main { padding-left: 16px; padding-right: 16px; } }
+</style></head>
+<body>
+<header><h1>MIB models</h1><span>2 models</span></header>
+<main>
+<a class="card" href="viewer.html?model=eiffel-options" target="_blank" rel="noopener"><div class="pic" style="background-image: url('pictures/eiffel-options.png')"></div><div class="body"><h2>Eiffel Tower</h2><div class="note">Design options in the branch list</div><div class="meta">330 shapes · 21 MB · 7 design options · 5 pins</div><div class="opts"><span>Twisted</span><span>Tripod</span><span>Hexagonal-gold</span><span>Tokyo-waist</span><span>Needle</span><span>Droste</span></div></div></a>
+<a class="card" href="viewer.html?model=playground" target="_blank" rel="noopener"><div class="pic" style="background-image: url('pictures/playground.png')"></div><div class="body"><h2>Escher playground</h2><div class="note">Boards with scripts to try; pins where the illusions close</div><div class="meta">499 shapes · 1 MB · 5 pins</div></div></a>
+</main>
+</body></html>

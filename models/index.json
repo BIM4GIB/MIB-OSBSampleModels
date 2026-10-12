@@ -1,0 +1,33 @@
+[
+ {
+  "name": "eiffel-options",
+  "title": "Eiffel Tower",
+  "note": "Design options in the branch list",
+  "shapes": 330,
+  "bytes": 20910330,
+  "options": [
+   "Twisted",
+   "Tripod",
+   "Hexagonal-gold",
+   "Tokyo-waist",
+   "Needle",
+   "Droste"
+  ],
+  "pins": 5,
+  "picture": true,
+  "internal": false,
+  "public": true
+ },
+ {
+  "name": "playground",
+  "title": "Escher playground",
+  "note": "Boards with scripts to try; pins where the illusions close",
+  "shapes": 499,
+  "bytes": 1282462,
+  "options": [],
+  "pins": 5,
+  "picture": true,
+  "internal": false,
+  "public": true
+ }
+]
