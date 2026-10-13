@@ -4,7 +4,7 @@
   "title": "Eiffel Tower",
   "note": "Design options in the branch list",
   "shapes": 330,
-  "bytes": 29235404,
+  "bytes": 29235432,
   "options": [
    "Twisted",
    "Tripod",
@@ -16,6 +16,11 @@
   "pins": 5,
   "picture": true,
   "internal": false,
+  "version": {
+   "commit": "85b3187",
+   "date": "2026-10-12",
+   "version": 1
+  },
   "public": true
  },
  {
@@ -23,11 +28,16 @@
   "title": "Escher playground",
   "note": "Boards with scripts to try; pins where the illusions close",
   "shapes": 499,
-  "bytes": 1163112,
+  "bytes": 1163110,
   "options": [],
   "pins": 5,
   "picture": true,
   "internal": false,
+  "version": {
+   "commit": "85b3187",
+   "date": "2026-10-12",
+   "version": 1
+  },
   "public": true
  },
  {
@@ -35,13 +45,18 @@
   "title": "Hotel Panorama",
   "note": "\u0160trbsk\u00e9 Pleso, as on Molchat Doma's Etazhi; its 1970 design an option",
   "shapes": 557,
-  "bytes": 1535655,
+  "bytes": 1535657,
   "options": [
    "Panorama-1970"
   ],
   "pins": 0,
   "picture": true,
   "internal": false,
+  "version": {
+   "commit": "85b3187",
+   "date": "2026-10-12",
+   "version": 1
+  },
   "public": true
  },
  {
@@ -49,7 +64,7 @@
   "title": "The Sphere",
   "note": "Its screen's programs in the option list: MIB, Eye, Emoji, Earth, Fireworks, Off",
   "shapes": 734,
-  "bytes": 4547225,
+  "bytes": 4547229,
   "options": [
    "Eye",
    "Emoji",
@@ -60,6 +75,11 @@
   "pins": 0,
   "picture": true,
   "internal": false,
+  "version": {
+   "commit": "85b3187",
+   "date": "2026-10-12",
+   "version": 1
+  },
   "public": true
  },
  {
@@ -67,11 +87,16 @@
   "title": "Palazzo dell'Acqua e della Luce",
   "note": "Nervi's design for E42, never built, as on Molchat Doma's Belaya Polosa",
   "shapes": 605,
-  "bytes": 781761,
+  "bytes": 781767,
   "options": [],
   "pins": 0,
   "picture": true,
   "internal": false,
+  "version": {
+   "commit": "85b3187",
+   "date": "2026-10-12",
+   "version": 1
+  },
   "public": true
  },
  {
@@ -79,11 +104,16 @@
   "title": "Banff Springs Hotel",
   "note": "The castle in the Rockies: Painter's tower, the mansard wings, the Bow, the woods and the elk",
   "shapes": 3288,
-  "bytes": 29390665,
+  "bytes": 29390717,
   "options": [],
   "pins": 0,
   "picture": true,
   "internal": false,
+  "version": {
+   "commit": "85b3187",
+   "date": "2026-10-12",
+   "version": 1
+  },
   "public": true
  }
 ]
