@@ -146,20 +146,20 @@
   {
     "name": "neotokyo",
     "title": "Neo-Tokyo",
-    "pins": 5,
+    "pins": 9,
     "artist": "After AKIRA",
     "note": "After midnight. Kaneda’s red machine.",
     "version": {
-      "version": 1,
+      "version": 7,
       "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "commit": "dfa1a5ae11ccc7ddef1a7f1cc7f445e9cf98b4a6"
     },
-    "shapes": 3464,
+    "shapes": 3838,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 12101173
+    "bytes": 21038267
   },
   {
     "name": "empire-state",
