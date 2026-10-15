@@ -1,119 +1,451 @@
 [
- {
-  "name": "eiffel-options",
-  "title": "Eiffel Tower",
-  "note": "Design options in the branch list",
-  "shapes": 330,
-  "bytes": 29235432,
-  "options": [
-   "Twisted",
-   "Tripod",
-   "Hexagonal-gold",
-   "Tokyo-waist",
-   "Needle",
-   "Droste"
-  ],
-  "pins": 5,
-  "picture": true,
-  "internal": false,
-  "version": {
-   "commit": "85b3187",
-   "date": "2026-10-12",
-   "version": 1
+  {
+    "name": "london",
+    "title": "London along the Thames",
+    "pins": 12,
+    "artist": "Six landmarks / one river",
+    "note": "All six London landmarks. Common building scale, shortened district distances.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 8312,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 24305137
   },
-  "public": true
- },
- {
-  "name": "playground",
-  "title": "Escher playground",
-  "note": "Boards with scripts to try; pins where the illusions close",
-  "shapes": 499,
-  "bytes": 1163110,
-  "options": [],
-  "pins": 5,
-  "picture": true,
-  "internal": false,
-  "version": {
-   "commit": "85b3187",
-   "date": "2026-10-12",
-   "version": 1
+  {
+    "name": "battersea",
+    "title": "Battersea Power Station",
+    "pins": 3,
+    "artist": "Sir Giles Gilbert Scott",
+    "note": "Brick, fluted chimneys and monumental turbine halls.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 155,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 2486588
   },
-  "public": true
- },
- {
-  "name": "panorama",
-  "title": "Hotel Panorama",
-  "note": "\u0160trbsk\u00e9 Pleso, as on Molchat Doma's Etazhi; its 1970 design an option",
-  "shapes": 557,
-  "bytes": 1535657,
-  "options": [
-   "Panorama-1970"
-  ],
-  "pins": 0,
-  "picture": true,
-  "internal": false,
-  "version": {
-   "commit": "85b3187",
-   "date": "2026-10-12",
-   "version": 1
+  {
+    "name": "parliament",
+    "title": "Houses of Parliament",
+    "pins": 3,
+    "artist": "Charles Barry & A. W. N. Pugin",
+    "note": "Courtyards, chambers and towers beside the Thames.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 3654,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 4751516
   },
-  "public": true
- },
- {
-  "name": "sphere-options",
-  "title": "The Sphere",
-  "note": "Its screen's programs in the option list: MIB, Eye, Emoji, Earth, Fireworks, Off",
-  "shapes": 734,
-  "bytes": 4547229,
-  "options": [
-   "Eye",
-   "Emoji",
-   "Earth",
-   "Fireworks",
-   "Off"
-  ],
-  "pins": 0,
-  "picture": true,
-  "internal": false,
-  "version": {
-   "commit": "85b3187",
-   "date": "2026-10-12",
-   "version": 1
+  {
+    "name": "big-ben",
+    "title": "Big Ben / Elizabeth Tower",
+    "pins": 2,
+    "artist": "Augustus Pugin",
+    "note": "Elizabeth Tower and its restored blue clock faces.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 1081,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 2633872
   },
-  "public": true
- },
- {
-  "name": "nervi",
-  "title": "Palazzo dell'Acqua e della Luce",
-  "note": "Nervi's design for E42, never built, as on Molchat Doma's Belaya Polosa",
-  "shapes": 605,
-  "bytes": 781767,
-  "options": [],
-  "pins": 0,
-  "picture": true,
-  "internal": false,
-  "version": {
-   "commit": "85b3187",
-   "date": "2026-10-12",
-   "version": 1
+  {
+    "name": "london-eye",
+    "title": "London Eye",
+    "pins": 2,
+    "artist": "Marks Barfield Architects",
+    "note": "The wheel, its single-sided support and 32 capsules.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 659,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 4356878
   },
-  "public": true
- },
- {
-  "name": "banff",
-  "title": "Banff Springs Hotel",
-  "note": "The castle in the Rockies: Painter's tower, the mansard wings, the Bow, the woods and the elk",
-  "shapes": 3288,
-  "bytes": 29390717,
-  "options": [],
-  "pins": 0,
-  "picture": true,
-  "internal": false,
-  "version": {
-   "commit": "85b3187",
-   "date": "2026-10-12",
-   "version": 1
+  {
+    "name": "tower-bridge",
+    "title": "Tower Bridge",
+    "pins": 2,
+    "artist": "Horace Jones & John Wolfe Barry",
+    "note": "Stone towers, suspension chains and opening bascules.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 1543,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 1296626
   },
-  "public": true
- }
+  {
+    "name": "o2",
+    "title": "The O2 / Millennium Dome",
+    "pins": 3,
+    "artist": "Richard Rogers Partnership",
+    "note": "Twelve yellow masts and a suspended white canopy.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 1906,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 13694809
+  },
+  {
+    "name": "garden",
+    "title": "Four gardens",
+    "pins": 20,
+    "artist": "Escher · Dalí · Banksy · Magritte",
+    "note": "A shared landscape of impossible things. Six quiet spatial sound sources.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 1506,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 36448288
+  },
+  {
+    "name": "neotokyo",
+    "title": "Neo-Tokyo",
+    "pins": 5,
+    "artist": "After AKIRA",
+    "note": "After midnight. Kaneda’s red machine.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 3464,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 12101173
+  },
+  {
+    "name": "empire-state",
+    "title": "Empire State Building",
+    "pins": 3,
+    "artist": "Shreve, Lamb & Harmon",
+    "note": "Limestone setbacks and an Art Deco crown.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 161,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 4223639
+  },
+  {
+    "name": "sagrada",
+    "title": "Sagrada Família",
+    "pins": 14,
+    "artist": "Antoni Gaudí",
+    "note": "Stone, branches and coloured light.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 1164,
+    "options": [
+      "2026"
+    ],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 36967916
+  },
+  {
+    "name": "pedrera",
+    "title": "La Pedrera",
+    "pins": 7,
+    "artist": "Antoni Gaudí",
+    "note": "Courtyards and sculpted rooftops.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 1858,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 7689663
+  },
+  {
+    "name": "escher",
+    "title": "The impossible garden",
+    "pins": 4,
+    "artist": "After M. C. Escher",
+    "note": "Tessellations, loops and impossible perspectives.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 491,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 1841832
+  },
+  {
+    "name": "banksy",
+    "title": "The gallery",
+    "pins": 7,
+    "artist": "Banksy",
+    "note": "Seven works in a quiet limestone courtyard.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 64,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 7597014
+  },
+  {
+    "name": "dali",
+    "title": "Soft time",
+    "pins": 4,
+    "artist": "After Salvador Dalí",
+    "note": "The elephant, soft watches and egg studio, together.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 271,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 7771502
+  },
+  {
+    "name": "magritte",
+    "title": "The ordinary, unsettled",
+    "pins": 4,
+    "artist": "After René Magritte",
+    "note": "A false window. A floating castle. An impossible apple.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 404,
+    "options": [],
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 62021419
+  },
+  {
+    "name": "bilbao",
+    "title": "Guggenheim Bilbao",
+    "artist": "Frank Gehry",
+    "note": "Titanium sails beside the Nervión.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 243,
+    "options": [],
+    "pins": 8,
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 10729653
+  },
+  {
+    "name": "banff",
+    "title": "Banff Springs Hotel",
+    "artist": "Painter & Orrock",
+    "note": "Stone towers, steep roofs and the Bow Valley.",
+    "version": {
+      "version": 2,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 3291,
+    "options": [],
+    "pins": 6,
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 30628698
+  },
+  {
+    "name": "sphere-options",
+    "title": "The Sphere",
+    "artist": "Populous",
+    "note": "A luminous globe. Six screen programmes.",
+    "version": {
+      "version": 2,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 734,
+    "options": [
+      "Eye",
+      "Emoji",
+      "Earth",
+      "Fireworks",
+      "Off"
+    ],
+    "pins": 3,
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 6426232
+  },
+  {
+    "name": "eiffel-options",
+    "title": "Eiffel Tower",
+    "artist": "Gustave Eiffel’s company",
+    "note": "Lattice, arches and seven design options.",
+    "version": {
+      "version": 2,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 330,
+    "options": [
+      "Twisted",
+      "Tripod",
+      "Hexagonal-gold",
+      "Tokyo-waist",
+      "Needle",
+      "Droste"
+    ],
+    "pins": 7,
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 30821152
+  },
+  {
+    "name": "panorama",
+    "title": "Hotel Panorama",
+    "artist": "Zdeněk Řihák",
+    "note": "The mountain hotel, with its 1970 design option.",
+    "version": {
+      "version": 2,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 597,
+    "options": [
+      "Panorama-1970"
+    ],
+    "pins": 6,
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 1552875
+  },
+  {
+    "name": "nervi",
+    "title": "Palazzo dell’Acqua e della Luce",
+    "artist": "Pier Luigi Nervi",
+    "note": "A continuous rising gallery and a fountain of light.",
+    "version": {
+      "version": 2,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 641,
+    "options": [],
+    "pins": 7,
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 1186860
+  },
+  {
+    "name": "burj",
+    "title": "Burj Khalifa",
+    "artist": "Skidmore, Owings & Merrill",
+    "note": "From the fountain to the crown.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-15",
+      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+    },
+    "shapes": 4066,
+    "options": [],
+    "pins": 0,
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 6000493
+  },
+  {
+    "name": "playground",
+    "title": "Escher playground",
+    "artist": "After M. C. Escher",
+    "note": "Impossible perspectives and scripts to explore.",
+    "version": {
+      "version": 1,
+      "date": "2026-10-12",
+      "commit": "85b3187"
+    },
+    "shapes": 499,
+    "options": [],
+    "pins": 5,
+    "picture": true,
+    "public": true,
+    "internal": false,
+    "bytes": 1163168
+  }
 ]
