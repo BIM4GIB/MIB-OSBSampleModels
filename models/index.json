@@ -6,16 +6,18 @@
     "artist": "Six landmarks / one river",
     "note": "All six London landmarks. Common building scale, shortened district distances.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 5,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "899c29483ce10c68fcb49065ffe44680d012fdee9f45095b1cd9590ead8e70cc",
+      "workingTree": true
     },
-    "shapes": 8312,
+    "shapes": 8424,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 24305137
+    "bytes": 27402549
   },
   {
     "name": "battersea",
@@ -24,16 +26,18 @@
     "artist": "Sir Giles Gilbert Scott",
     "note": "Brick, fluted chimneys and monumental turbine halls.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 2,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "d644fbf04220131b0ba943f62612d24adb7d34268acf5a4500387ceda9f07208",
+      "workingTree": true
     },
-    "shapes": 155,
+    "shapes": 156,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 2486588
+    "bytes": 1136352
   },
   {
     "name": "parliament",
@@ -42,16 +46,18 @@
     "artist": "Charles Barry & A. W. N. Pugin",
     "note": "Courtyards, chambers and towers beside the Thames.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 5,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "44540098fc36c3634fca4b412b5b7feeb4763aade1fb7f38733eaa3a2a411a28",
+      "workingTree": true
     },
-    "shapes": 3654,
+    "shapes": 3611,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 4751516
+    "bytes": 7335634
   },
   {
     "name": "big-ben",
@@ -60,16 +66,18 @@
     "artist": "Augustus Pugin",
     "note": "Elizabeth Tower and its restored blue clock faces.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "65b614d709e6ddc597a90cc0fb887467c9b5a4c4c2282e6e8c4dc1a289d70250",
+      "workingTree": true
     },
     "shapes": 1081,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 2633872
+    "bytes": 2519549
   },
   {
     "name": "london-eye",
@@ -78,16 +86,18 @@
     "artist": "Marks Barfield Architects",
     "note": "The wheel, its single-sided support and 32 capsules.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 2,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "c1af94381ee3842527dd07bdf07398133f4f9bb6101ca32dff774c55fc56799a",
+      "workingTree": true
     },
     "shapes": 659,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 4356878
+    "bytes": 6236824
   },
   {
     "name": "tower-bridge",
@@ -96,16 +106,18 @@
     "artist": "Horace Jones & John Wolfe Barry",
     "note": "Stone towers, suspension chains and opening bascules.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "284ee0a37db1d9996b96909d8ea1984dc23cd1dfc108f28cbd0c3f5de33b8a5d",
+      "workingTree": true
     },
-    "shapes": 1543,
+    "shapes": 1633,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 1296626
+    "bytes": 1857560
   },
   {
     "name": "o2",
@@ -114,16 +126,18 @@
     "artist": "Richard Rogers Partnership",
     "note": "Twelve yellow masts and a suspended white canopy.",
     "version": {
-      "version": 1,
+      "version": 2,
       "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "c59f7208c41b72be67338d155ada0ec25a0e74420d0e35e8fe23b03b7744c946",
+      "workingTree": true
     },
-    "shapes": 1906,
+    "shapes": 1970,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 13694809
+    "bytes": 10741742
   },
   {
     "name": "garden",
@@ -170,16 +184,18 @@
     "artist": "Shreve, Lamb & Harmon",
     "note": "Limestone setbacks and an Art Deco crown.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 2,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "4dca96157f5e4260c55dc235f7e9185ad4eee86e82979fc38168bd0dd23115e4",
+      "workingTree": true
     },
-    "shapes": 161,
+    "shapes": 203,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 4223639
+    "bytes": 1575171
   },
   {
     "name": "sagrada",
@@ -188,18 +204,20 @@
     "artist": "Antoni Gaudí",
     "note": "Stone, branches and coloured light.",
     "version": {
-      "version": 1,
+      "version": 2,
       "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "b1871d3e6adcc717c269693ff379ce00518a41e8a4ca1c2cea2e79bb11cb6eb2",
+      "workingTree": true
     },
-    "shapes": 1164,
+    "shapes": 1165,
     "options": [
       "2026"
     ],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 36967916
+    "bytes": 34478563
   },
   {
     "name": "pedrera",
@@ -208,16 +226,18 @@
     "artist": "Antoni Gaudí",
     "note": "Courtyards and sculpted rooftops.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "07e11394da0b04cf31b746f3bac62f7111906ccfdf1caa10ed838f67bd81377d",
+      "workingTree": true
     },
-    "shapes": 1858,
+    "shapes": 436,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 7689663
+    "bytes": 16127201
   },
   {
     "name": "escher",
@@ -246,16 +266,18 @@
     "artist": "Banksy",
     "note": "Seven works in a quiet limestone courtyard.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 2,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "2e01bb6e9725d2316517fa69dfeef84a536acb2dd1bd4890e27d2be4b3a7493b",
+      "workingTree": true
     },
-    "shapes": 64,
+    "shapes": 66,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 7597014
+    "bytes": 1966358
   },
   {
     "name": "dali",
@@ -264,16 +286,18 @@
     "artist": "After Salvador Dalí",
     "note": "The elephant, soft watches and egg studio, together.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "c1b3529be8a06461fd7e67cd87f1b6c33a74a3c606cd7a4b4422ca8fd52ea2cf",
+      "workingTree": true
     },
-    "shapes": 271,
+    "shapes": 270,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 7771502
+    "bytes": 7475094
   },
   {
     "name": "magritte",
@@ -299,17 +323,19 @@
     "artist": "Frank Gehry",
     "note": "Titanium sails beside the Nervión.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 5,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "68b9073b6ea24548536ef83c66d49ca2bf9e1755c3c5b3e033d8d9a22b32ed67",
+      "workingTree": true
     },
-    "shapes": 243,
+    "shapes": 1125,
     "options": [],
     "pins": 8,
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 10729653
+    "bytes": 14811019
   },
   {
     "name": "banff",
@@ -317,17 +343,19 @@
     "artist": "Painter & Orrock",
     "note": "Stone towers, steep roofs and the Bow Valley.",
     "version": {
-      "version": 2,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "2d5c5d2832fe76b790603e95636f49157badf861c926d65ebea433b5295fc724",
+      "workingTree": true
     },
-    "shapes": 3291,
+    "shapes": 3295,
     "options": [],
     "pins": 6,
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 30628698
+    "bytes": 22951067
   },
   {
     "name": "sphere-options",
@@ -335,9 +363,11 @@
     "artist": "Populous",
     "note": "A luminous globe. Six screen programmes.",
     "version": {
-      "version": 2,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "c08c13c3a272c881e74069f5a83f5f382edd753e33d465fc160997b0c320e539",
+      "workingTree": true
     },
     "shapes": 734,
     "options": [
@@ -351,7 +381,7 @@
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 6426232
+    "bytes": 10440807
   },
   {
     "name": "eiffel-options",
@@ -384,9 +414,11 @@
     "artist": "Zdeněk Řihák",
     "note": "The mountain hotel, with its 1970 design option.",
     "version": {
-      "version": 2,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "02c29b292c48de30b1f5ddcee95b12e3205e80a7777c0628bf6fd43ba2e30671",
+      "workingTree": true
     },
     "shapes": 597,
     "options": [
@@ -396,7 +428,7 @@
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 1552875
+    "bytes": 1162748
   },
   {
     "name": "nervi",
@@ -404,17 +436,19 @@
     "artist": "Pier Luigi Nervi",
     "note": "A continuous rising gallery and a fountain of light.",
     "version": {
-      "version": 2,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "1afee20f9eab30be5f9d0522a851df1a7d3a3ea4900e55c2374d5bfa751ecc58",
+      "workingTree": true
     },
-    "shapes": 641,
+    "shapes": 679,
     "options": [],
     "pins": 7,
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 1186860
+    "bytes": 1211132
   },
   {
     "name": "burj",
