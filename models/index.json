@@ -132,16 +132,18 @@
     "artist": "Escher · Dalí · Banksy · Magritte",
     "note": "A shared landscape of impossible things. Six quiet spatial sound sources.",
     "version": {
-      "version": 1,
-      "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "version": 3,
+      "date": "2026-10-16",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "1b7877d480a0474788b3cd76c696ea1abb83731d01be59d42d1629828c8a9e17",
+      "workingTree": true
     },
-    "shapes": 1506,
+    "shapes": 1507,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 36448288
+    "bytes": 31812239
   },
   {
     "name": "neotokyo",
@@ -224,16 +226,18 @@
     "artist": "After M. C. Escher",
     "note": "Tessellations, loops and impossible perspectives.",
     "version": {
-      "version": 1,
+      "version": 2,
       "date": "2026-10-15",
-      "commit": "a0329eb658e139647b524530dfee8dd2eea6047a"
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "f9a6987420cf5d550fce033466b67f1c34e93c6d766c92c88906482fc1fb568b",
+      "workingTree": true
     },
     "shapes": 491,
     "options": [],
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 1841832
+    "bytes": 3458727
   },
   {
     "name": "banksy",
@@ -436,16 +440,18 @@
     "artist": "After M. C. Escher",
     "note": "Impossible perspectives and scripts to explore.",
     "version": {
-      "version": 1,
-      "date": "2026-10-12",
-      "commit": "85b3187"
+      "version": 2,
+      "date": "2026-10-15",
+      "commit": "eb79184609939cff17fa048557d3cc1b81f0a570",
+      "sourceHash": "9de1eed77df100a9b3b30c36f188f23f37e383d85badd1c5a7fb8b3daf75f2be",
+      "workingTree": true
     },
-    "shapes": 499,
+    "shapes": 503,
     "options": [],
     "pins": 5,
     "picture": true,
     "public": true,
     "internal": false,
-    "bytes": 1163168
+    "bytes": 3543514
   }
 ]
