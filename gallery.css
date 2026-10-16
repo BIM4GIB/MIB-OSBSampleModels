@@ -102,3 +102,22 @@ body.viewer-chrome-hidden .workspace-panel,body.viewer-chrome-hidden .workspace-
 
 /* Active games use one aim marker, including hosts without pointer capture. */
 body.game-aiming #stage canvas{cursor:none}
+/* Tour is opt-in; the transport stays visible while the model fills the stage. */
+#tourPlayer{position:fixed;z-index:65;bottom:18px;left:50%;transform:translateX(-50%);width:520px;max-width:calc(100vw - 24px);padding:12px 16px;background:var(--sheet);color:var(--ink);border:1px solid var(--rule);border-radius:16px;box-shadow:0 8px 35px #0003;backdrop-filter:blur(14px);font:12px var(--font-ui)}
+.tour-heading,.tour-actions,.tour-timeline{display:flex;align-items:center;gap:8px}.tour-heading{margin-bottom:8px}.tour-kicker{font:10px var(--font-mono);letter-spacing:.12em;color:var(--muted);white-space:nowrap}#tourShot{flex:1;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#tourPlayer button{border-radius:999px;min-height:32px;padding:6px 12px}#tourExit{border:0;background:transparent;font-size:20px;padding:0 5px!important}#tourPause{min-width:66px}.tour-actions select{min-width:0;padding:7px 5px}#tourMode{flex:1}.tour-timeline{margin-top:8px}#tourScrub{flex:1;min-width:0;accent-color:#686b53}#tourTime{font:10px var(--font-mono);color:var(--muted);font-variant-numeric:tabular-nums}.tour-hint{font-size:10px;text-align:center;color:var(--muted);margin-top:5px}
+body.demoing #tools,body.demoing #modelCard,body.demoing .workspace-panel,body.demoing .workspace-transient,body.demoing #pinLayer,body.demoing #reviewPinLayer,body.demoing #dimensionLayer,body.demoing #controlsToggle,body.demoing #padSettings{display:none!important}
+body.demoing:before{content:'';position:fixed;inset:0;z-index:45;pointer-events:none;background:linear-gradient(#101210 0 3vh,transparent 3vh calc(100% - 3vh),#101210 calc(100% - 3vh))}
+body:after{content:'';position:fixed;inset:0;z-index:46;pointer-events:none;background:#101210;opacity:0;transition:opacity .18s ease}
+body.tour-cut:after{opacity:1}
+@media(max-width:560px){#tourPlayer{bottom:10px;padding:10px}.tour-actions{gap:3px}#tourPlayer button{padding:6px 9px}.tour-kicker{font-size:9px}#tourShot{font-size:11px}.tour-hint{font-size:9px}}
+@media(prefers-reduced-motion:reduce){body:after{transition:none}}
+
+/* Sala del Cel occupies the existing viewport during native scene loading. */
+#loadingScene{position:fixed;inset:0;z-index:40;pointer-events:none;display:flex;align-items:flex-end;justify-content:center;padding:0 20px max(7vh,36px);box-sizing:border-box;text-align:center;color:#29302c}
+#loadingScene[hidden]{display:none}
+.loading-caption{background:#f5f3ecdf;border:1px solid #d3cdbf;border-radius:12px;padding:16px 28px;min-width:240px;box-shadow:0 8px 40px #27312a09}
+.loading-caption>span{font:11px monospace;letter-spacing:.2em}.loading-caption p{margin:8px 0 0;font-size:14px}
+body.scene-loading>#tools,body.scene-loading>aside,body.scene-loading .workspace-panel,body.scene-loading #pinLayer,body.scene-loading #reviewPinLayer,body.scene-loading #controlsToggle,body.scene-loading .axesnote,body.scene-loading .ovmap{visibility:hidden!important}
+body.scene-loading #stage{pointer-events:none}
+
+#tourPlayer .tour-heading{touch-action:none;cursor:grab}#tourPlayer.is-moving .tour-heading{cursor:grabbing}#tourPlayer .workspace-grip{padding:0 4px;flex:none}#tourCollapse{padding:0 5px!important;font-size:18px;background:transparent;border:0}#tourPlayer.tour-collapsed{width:330px;padding-top:7px;padding-bottom:7px}#tourPlayer.tour-collapsed .tour-heading{margin:0}#tourPlayer.tour-collapsed .tour-actions,#tourPlayer.tour-collapsed .tour-timeline,#tourPlayer.tour-collapsed .tour-hint{display:none}
