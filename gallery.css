@@ -99,3 +99,6 @@ body.viewer-chrome-hidden .workspace-panel,body.viewer-chrome-hidden .workspace-
 #devOverlay dt{color:var(--muted)}#devOverlay dd{margin:0;text-align:right;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
 #devOverlay .dev-note{margin:0;padding:10px 14px;border-top:1px solid var(--rule);font:10px/1.5 var(--font-ui);color:var(--muted);flex:none}
 @media(max-width:700px){#devOverlay{left:8px;max-height:calc(100dvh - var(--viewer-tools-height,88px) - 160px)}}
+
+/* Active games use one aim marker, including hosts without pointer capture. */
+body.game-aiming #stage canvas{cursor:none}
