@@ -93,7 +93,7 @@ to floating-point tolerance (less than 4e-15 m in the checks).
 30,096 triangle-pair checks across 99 intermediate poses found zero strict
 interior crossings. Shared edges and vertices are excluded; the checks use
 ideal zero-thickness facets, not a continuous physical collision proof.
-Full model: 6,531 elements. The current fit-out supersedes the earlier loose furniture and service pod. A separate
+Full model: 6,557 elements. The current fit-out supersedes the earlier loose furniture and service pod. A separate
 representative triangular extrusion passed the exact solid check, but the
 new native elements do not carry individual analytic solid documents.
 Placement editing survives undo/redo and serialized save/reopen.
@@ -232,6 +232,27 @@ targeted geometric checks, not an accessibility, structural or code certificate.
 Partition dimension/placement and private leaf rotation survive undo/redo/reopen.
 New partitions and fit-out use editable bounded polygonal extrusions without
 individual analytic exact-solid documents. The complete native build is checked.
+
+SEVENTH-EDITION UTILITY / BATH REVISION
+The kitchen-parallel west bathroom wall now extends to the curved house shell,
+enclosing a small utility room at the rear. Its west door is reached from shared
+space. A separate door through the bathroom's rear wall leads from utility to
+bath; the former kitchen-facing bathroom entrance is replaced by continuous wall.
+The bedroom retains its own entrance from the shared living space.
+The WC is rotated and moved to the closed front wall; basin and shower remain
+on the left, with a clear approach from the rear door. Laundry machine, cabinet
+and worktop occupy the utility's curved rear edge, clear of both door routes.
+The bath leaf opens inward along its east wall; utility leaf slides 1.04 m southward along the shared-space face. Their clear framed widths are 0.90 m and 0.96 m respectively.
+Room names and the Interior plan view reflect the new sequence.
+
+Reproduction: node extend.mjs calls utility-room.mjs after layout-house.mjs.
+Run python check-layout.py for 283 sampled private-leaf poses (182 swing / 101 sliding) and connected
+600 mm walking-envelope routes. A closed utility-entry test verifies that the
+bath cannot be reached directly from the shared kitchen/living space, while
+the bedroom remains independently accessible. These are targeted geometric
+checks, not a code or accessibility certificate. Previous editions are retained.
+
+Seventh-edition presentation: both house entrances are shown open, without door playback controls. Sphere, Jitterbug and map transport controls remain. Native door members remain editable.
 
 
 PUBLIC EDITION
