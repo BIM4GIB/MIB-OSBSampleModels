@@ -44,7 +44,7 @@ section lofts. Carbondale panels and window bays are bounded extrusions,
 including openings. Concealed connections and fabrication are deferred.
 The Dymaxion has 48 roof sectors and 24 simplified radial floor spokes;
 the interior is illustrative fit-out, not the historic measured layout.
-The Montreal museum now has 2,193 separately named architectural elements.
+The Montreal museum now has 2,502 separately named architectural elements.
 Its volumes, levels and dimensions are photographic estimates; see below.
 The Montreal rods use the modeller's ordinary editable polygonal extrusion
 constructor. They are checked through the complete model build, but do not
@@ -93,11 +93,11 @@ to floating-point tolerance (less than 4e-15 m in the checks).
 30,096 triangle-pair checks across 99 intermediate poses found zero strict
 interior crossings. Shared edges and vertices are excluded; the checks use
 ideal zero-thickness facets, not a continuous physical collision proof.
-Full model: 5,484 elements; 2,602 added editable polygonal extrusions, with 12 old museum placeholders removed. A separate
+Full model: 6,205 elements; 3,345 added editable polygonal extrusions, with 12 old museum placeholders removed. A separate
 representative triangular extrusion passed the exact solid check, but the
 new native elements do not carry individual analytic solid documents.
 Placement editing survives undo/redo and serialized save/reopen.
-636 retained analytic elements remain exact solids; 24 floor spokes have corrected placement.
+614 retained analytic elements remain exact solids; 24 floor spokes have corrected placement.
 
 MONTREAL MUSEUM RECONSTRUCTION
 Primary architectural reference inspected:
@@ -121,7 +121,7 @@ panels around usable space. Supported floor assemblies replace solid blocks.
 Hide dome / Show dome exposes the museum and refits the camera for inspection.
 Reproduce with node extend.mjs; it calls rebuild-montreal.mjs after repair-house.mjs.
 Run node check-museum.mjs for names, selected bearing contacts and envelope checks.
-The 2,193 museum elements use ordinary bounded editable polygonal extrusions;
+The 2,502 museum elements use ordinary bounded editable polygonal extrusions;
 they are checked by the full build but lack individual analytic exact documents.
 
 THIRD-EDITION REPAIRS
@@ -162,6 +162,44 @@ roughness 0.15 and does not cast opaque shadows. Transparent layers can retain
 normal real-time blending/sorting limitations. No modeller software changes.
 Checks: node check-entrance.mjs; python check-door-sweep.py; node check-repairs.mjs.
 Rebuild with node extend.mjs (calls entrance.mjs); no one-off patch is required.
+
+FIFTH-EDITION CLOSE-UP COMPLETION
+All six studies were reviewed at closer range, with roofs lifted, the museum
+dome hidden, and rest/animated states inspected. Corrections:
+- Dymaxion: twelve original footings now meet the plinth; mast base socket;
+  hollow service pod with a framed opening, leaf, hinges and basin cabinet.
+- Montreal: eight framed door leaves at gallery and tower access routes;
+  stair-aligned openings, rear gallery bridge, continuous lift shaft, complete
+  landing guards and 155 treads bearing on stepped steel stringers. Dome cut
+  nodes have 110 bearing pads; the raised inner lattice has bearing stems.
+- Carbondale: continuous roof-bearing edges, a two-track sliding entrance,
+  flush sill, low two-shelf library with 64 supported books, desk and chair.
+  The unsubstantiated solid hearth placeholder was removed. The library
+  reference is the preservation organisation's interior photograph:
+  https://fullerdomehome.com/dome-home/
+  The desk, service pod, door hardware and room arrangement are illustrative,
+  not a reconstruction of surveyed historic interior joinery or fittings.
+- Sphere: 60 small end collars and three explicit display cradle arms.
+- Jitterbug: three attachments per inset plate; clear rest table and stem.
+- Map: raised land relief bears directly on the ocean panels; clear lectern.
+  Rest supports withdraw during animation and return only at their rest pose.
+
+Carbondale's sliding leaf uses the same Start/Play/End and mouse/keyboard slider
+as the other animated studies. Separate tracks avoid leaf/frame interpenetration.
+Full-size travel is 1.02 m; it is an illustrative domestic entrance, not a
+surveyed historic hardware specification. The native closed pose is saved.
+operate-sliding-door.mjs exposes setSlidingOpening(mib,data,from,to), with all
+eight members moved together through the public API. Undo/redo/reopen checked.
+
+Reproduction: node extend.mjs also calls finish-studies.mjs. Run
+node check-completion.mjs, node check-museum.mjs, node check-entrance.mjs,
+node check-repairs.mjs, node check-transformations.mjs,
+node check-panel-crossings.mjs and python check-door-sweep.py.
+Checks cover named identities, selected bearings, opening alignment, lift shaft
+clearance, 101 sliding poses, 201 transformation poses and native edit persistence.
+They do not establish all-building collision freedom, construction tolerance,
+structural adequacy or building-code compliance. New details use ordinary editable
+polygonal extrusions, without individual analytic exact-solid documents.
 
 
 PUBLIC EDITION
