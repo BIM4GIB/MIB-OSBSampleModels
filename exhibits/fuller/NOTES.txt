@@ -93,11 +93,11 @@ to floating-point tolerance (less than 4e-15 m in the checks).
 30,096 triangle-pair checks across 99 intermediate poses found zero strict
 interior crossings. Shared edges and vertices are excluded; the checks use
 ideal zero-thickness facets, not a continuous physical collision proof.
-Full model: 6,205 elements; 3,345 added editable polygonal extrusions, with 12 old museum placeholders removed. A separate
+Full model: 6,531 elements. The current fit-out supersedes the earlier loose furniture and service pod. A separate
 representative triangular extrusion passed the exact solid check, but the
 new native elements do not carry individual analytic solid documents.
 Placement editing survives undo/redo and serialized save/reopen.
-614 retained analytic elements remain exact solids; 24 floor spokes have corrected placement.
+596 retained analytic elements remain exact solids; 24 floor spokes have corrected placement.
 
 MONTREAL MUSEUM RECONSTRUCTION
 Primary architectural reference inspected:
@@ -200,6 +200,38 @@ clearance, 101 sliding poses, 201 transformation poses and native edit persisten
 They do not establish all-building collision freedom, construction tolerance,
 structural adequacy or building-code compliance. New details use ordinary editable
 polygonal extrusions, without individual analytic exact-solid documents.
+
+SIXTH-EDITION DOMESTIC LAYOUT
+The user-requested layout replaces the loose beds and service pod with:
+- Open entrance/living/dining space, directly connected to the left-side kitchen.
+- A rear-right bedroom with a 1.5 x 2.03 m mattress, bedside unit and low storage.
+- An independently accessed toilet, basin and shower room, 2.16 x 2.11 m clear.
+The bedroom and toilet each have a separate door from shared circulation.
+The bedroom leaf opens inward; the toilet leaf opens outward into clear space.
+Chosen clear framed widths: 0.96 m bedroom / 0.98 m toilet; clear heads 2.10 m.
+Partitions are 120 mm thick, with 2.35 m height above the existing floor.
+Private ceilings close the rooms and lift with the house roof display control.
+The kitchen includes a recessed sink, hob, refrigerator, cabinet fronts and pulls.
+Furniture and sanitary fittings have separate named, selectable elements.
+
+This is an illustrative domestic adaptation, NOT the measured historic plan.
+The former low mast-to-floor display diagonals obstructed occupied space.
+The simplified suspension representation now uses roof-level ties and perimeter
+drops, retaining the mast but not claiming historic or structural accuracy.
+The previous editions remain archived unchanged. No modeller software changes.
+
+Interior plan provides a labelled horizontal section through the house, with
+caps derived from the native partition/leaf tops. It changes presentation only.
+Reset view restores the normal 3D display; roof lift remains available.
+Reproduce via node extend.mjs, which calls layout-house.mjs after finish-studies.mjs.
+Checks: python check-layout.py; node check-layout-editing.mjs; node check-repairs.mjs;
+node check-entrance.mjs; python check-door-sweep.py; node check-completion.mjs.
+Leaf sweeps sample all 91 degree positions per private door. Connected circulation
+checks use the built geometry and a 600 mm diameter walking envelope. These are
+targeted geometric checks, not an accessibility, structural or code certificate.
+Partition dimension/placement and private leaf rotation survive undo/redo/reopen.
+New partitions and fit-out use editable bounded polygonal extrusions without
+individual analytic exact-solid documents. The complete native build is checked.
 
 
 PUBLIC EDITION
