@@ -1,0 +1,82 @@
+DIMENSIONS AND SCALE
+This is a fictional exhibition terrace, not a site plan of Fuller's projects.
+Sphere: 30 bars, 60 endpoints, 90 cables. Displayed bar length 2.8 m.
+Dymaxion: full-size working diameter 10.9728 m (36 ft), mast height 6.7056 m
+(22 ft). Displayed at 1:2. Other dimensions are photographic estimates.
+Montreal: nominal 76 m diameter and 62 m height; displayed at 1:10. The two
+triangular layers and depth spacers are a simplified six-frequency study,
+not a reconstruction of the original space-frame node topology.
+Carbondale: approximate 39 ft 1 in diameter, 16 ft 6 in height. Displayed at
+1:2. Three-frequency icosahedral cap, five blue bays. Bay clipping planes,
+glazing openings and domestic fittings are estimated. No surveyed claim.
+
+REFERENCES INSPECTED
+Tensegrity construction and photographs:
+https://geometryofthinking.com/2026/04/19/30-strut-tensegrity-sphere-and-its-transformations/
+Fuller on Kenneth Snelson's contribution:
+https://www.bfi.org/about-fuller/everything-i-know/section-9/
+Dymaxion museum photographs and the surviving Wichita prototype:
+https://www.thehenryford.org/visit/venues/henry-ford-museum-of-american-innovation/dymaxion-house
+https://www.thehenryford.org/collections/explore/articles/the-dymaxion-house-a-new-way-of-living
+Overall dimensions:
+https://www.docomomo-us.org/register/dymaxion-wichita-house
+Montreal official architectural photograph and authorship (Fuller + Sadao):
+https://espacepourlavie.ca/biosphere-0
+https://espacepourlavie.ca/propos-de-la-biosphere
+Carbondale preservation organisation and construction photograph:
+https://fullerdomehome.com/dome-home/
+https://fullerdomehome.com/wp-content/uploads/2025/09/Student-front-dome-1.jpg
+Restoration architect's dimensional account:
+https://www.architectmagazine.com/technology/the-restoration-of-buckminster-fullers-dome-home-kicks-off-saturday_o/
+Research on the three-frequency truncated geometry:
+https://www.researchgate.net/publication/279795762_Casa_cupula_en_Carbondale_Illinois_R_B_Fuller_1960
+The Library of Congress measured sheet was identified but could not be
+inspected through its access challenge; it is not claimed as the geometry's
+dimensional authority: https://www.loc.gov/resource/hhh.il0995.sheet
+
+REPRESENTATION
+Twelve-sided rods and 32-96-sided circular extrusions are deliberate faceting
+approximations. All such members are exact bounded polygonal prisms; the
+underlying profile and height remain editable. Large analytic cylinder
+display exceeded the existing material triangle budget; no silent display
+fallback or kernel patch is included. Roof gores are supported homothetic
+section lofts. Carbondale panels and window bays are bounded extrusions,
+including openings. Concealed connections and fabrication are deferred.
+The Dymaxion has 48 roof sectors and 24 simplified radial floor spokes;
+the interior is illustrative fit-out, not the historic measured layout.
+The Montreal inner building is simplified massing.
+The Montreal rods use the modeller's ordinary editable polygonal extrusion
+constructor. They are checked through the complete model build, but do not
+carry an analytic exact-solid document. Expanding all of them as analytic
+recipes exceeded the existing 1,900,000-byte scene source/index budget.
+This representation is explicit in scene.json and geometry-checks.json.
+
+ANIMATION / VALIDATION
+The sphere is independently constructed by rotating icosahedral edge struts
+about their midpoint radial axes. Its unloaded nominal form admits positive
+cable force densities (2.618...) and negative bar force density (-1).
+The solver residual is recorded in motion-checks.json. This establishes a
+self-stress equilibrium only, not stiffness, stability or load capacity.
+Motion translates rigid bars radially; the cables reconnect their endpoints
+and change length. Intermediate poses are not presented as force-balanced.
+101 sampled poses check invariant bar length and positive non-incident
+bar/bar and bar/cable clearances. No continuous collision proof is claimed.
+geometry-checks.json records positive-volume, closed single solids and
+representative dimension/placement edits surviving undo/redo and reopen.
+Browser performance is measured in References & study notes; GPU timing is
+not measured. No engineering export has been requested or certified.
+
+POSSIBLE NEXT STUDIES
+An unfolding Dymaxion map (including Shoji Sadao's contribution):
+https://www.bfi.org/about-fuller/big-ideas/dymaxion-map/
+A Jitterbug transformation, to connect changing polyhedral configurations.
+A Fly's Eye Dome, with its characteristic circular openings:
+https://www.bfi.org/2014/11/19/new-flys-eye-dome-commission-in-miami/
+These are suggestions, not included models in this first edition.
+
+
+PUBLIC EDITION
+View-only assembled geometry, with reversible presentation controls.
+The editable native model and reproducible source are archived separately.
+The .mibview export independently verifies every coordinate, face loop,
+placement, identity, name and group. No engineering export is certified.
