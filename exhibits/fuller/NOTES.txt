@@ -66,13 +66,41 @@ representative dimension/placement edits surviving undo/redo and reopen.
 Browser performance is measured in References & study notes; GPU timing is
 not measured. No engineering export has been requested or certified.
 
-POSSIBLE NEXT STUDIES
-An unfolding Dymaxion map (including Shoji Sadao's contribution):
-https://www.bfi.org/about-fuller/big-ideas/dymaxion-map/
-A Jitterbug transformation, to connect changing polyhedral configurations.
+NEW TRANSFORMATION STUDIES
+05 Jitterbug: eight rigid equilateral triangles. Cyclic signed coordinates
+(a, b, 0), (0, a, b), (b, 0, a), with a^2+b^2-a*b fixed. Cuboctahedral
+start, regular icosahedral vertex arrangement at 38.1966%, and octahedral
+limit. Twelve hinge positions pair into six at the final limit. Triangle
+edges remain 2.33345 m. The subsequent tetrahedral fold is not included.
+Six missing edges are not invented at the icosahedral position: only the
+eight rigid triangles of the mechanism are shown. Displayed plate insets
+and edge thicknesses are illustrative; closing edge pairs intentionally
+coincide. No physical hinge/hardware clearance simulation is claimed.
+
+06 Dymaxion map: Gray-Fuller spherical projection, Air-Ocean hinge tree.
+The 20 original icosahedral faces use the 24-piece split arrangement
+documented by d3-geo-polygon. Every piece has a rigid motion about its
+shared hinge edge. See MAP-CREDITS.txt for projection and coastline sources.
+Natural Earth 110m land is sampled at 300x300 per full face and simplified
+for editable relief. Inland water and sub-resolution islands are omitted.
+No image of a published BFI map is copied. The flat net has no area overlap.
+The map is saved flat in the native model; the Jitterbug is saved open.
+
+NEW-STUDY VALIDATION
+201 sampled poses preserve triangle edge lengths and shared hinge endpoints
+to floating-point tolerance (less than 4e-15 m in the checks).
+30,096 triangle-pair checks across 99 intermediate poses found zero strict
+interior crossings. Shared edges and vertices are excluded; the checks use
+ideal zero-thickness facets, not a continuous physical collision proof.
+Full model: 3,235 elements; 334 new editable polygonal extrusions. A separate
+representative triangular extrusion passed the exact solid check, but the
+new native elements do not carry individual analytic solid documents.
+Placement editing survives undo/redo and serialized save/reopen.
+The earlier 651 analytic exact elements remain unchanged.
+
+NEXT POSSIBILITY
 A Fly's Eye Dome, with its characteristic circular openings:
 https://www.bfi.org/2014/11/19/new-flys-eye-dome-commission-in-miami/
-These are suggestions, not included models in this first edition.
 
 
 PUBLIC EDITION

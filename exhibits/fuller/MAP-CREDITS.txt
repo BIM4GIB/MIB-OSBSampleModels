@@ -1,0 +1,28 @@
+DYMAXION / AIR-OCEAN EXHIBITION STUDY
+
+R. Buckminster Fuller and Shoji Sadao: map concept and Air-Ocean arrangement.
+Buckminster Fuller Institute reference:
+https://www.bfi.org/about-fuller/big-ideas/dymaxion-map/
+
+Air-Ocean panel arrangement and parent tree adapted from d3-geo-polygon:
+Jason Davies (2013), Enrico Spinielli (2017), Philippe Riviere (2017, 2018).
+https://github.com/d3/d3-geo-polygon/blob/main/src/airocean.js
+ISC licence is included in references/d3-geo-polygon-LICENSE in the source
+archive and D3-GEO-POLYGON-LICENSE.txt in the public exhibition.
+
+Gray-Fuller spherical triangle transformation:
+Robert W. Gray, Exact Transformation Equations For Fuller's World Map,
+Cartographica 32(3), 17-25 (1995).
+Equations adapted from Philippe Riviere's 2018 public-domain implementation:
+https://github.com/d3/d3-geo-polygon/blob/main/src/grayfuller.js
+
+Made with Natural Earth. Public-domain 1:110m land data:
+https://www.naturalearthdata.com/about/terms-of-use/
+https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson
+Coastlines are sampled on a 300x300 grid for each full face, traced and
+simplified for editable raised relief. Inland water and very small islands
+are omitted. This is a new exhibition rendering, not a copied BFI map image.
+
+The regular icosahedron's 20 faces become 24 hinged pieces using the
+Air-Ocean splits. The ideal hinge tree is retained throughout unfolding.
+Solid panels are illustrative thicknesses, not engineered fold joints.
