@@ -93,11 +93,11 @@ to floating-point tolerance (less than 4e-15 m in the checks).
 30,096 triangle-pair checks across 99 intermediate poses found zero strict
 interior crossings. Shared edges and vertices are excluded; the checks use
 ideal zero-thickness facets, not a continuous physical collision proof.
-Full model: 5,446 elements; 2,557 added editable polygonal extrusions, with 12 old museum placeholders removed. A separate
+Full model: 5,484 elements; 2,602 added editable polygonal extrusions, with 12 old museum placeholders removed. A separate
 representative triangular extrusion passed the exact solid check, but the
 new native elements do not carry individual analytic solid documents.
 Placement editing survives undo/redo and serialized save/reopen.
-643 retained analytic elements remain exact solids; 24 floor spokes have corrected placement.
+636 retained analytic elements remain exact solids; 24 floor spokes have corrected placement.
 
 MONTREAL MUSEUM RECONSTRUCTION
 Primary architectural reference inspected:
@@ -135,6 +135,33 @@ The existing browser scene is preserved; this revision opens separately.
 NEXT POSSIBILITY
 A Fly's Eye Dome, with its characteristic circular openings:
 https://www.bfi.org/2014/11/19/new-flys-eye-dome-commission-in-miami/
+
+FOURTH-EDITION ENTRANCE AND GLASS
+The entrance now has an aluminium frame, glazed leaf, lower aluminium panel,
+three hinges, handles on both sides and a flush threshold. Its 14 separate
+leaf elements rotate rigidly about the shared vertical hinge, inward 0–90°.
+The house uses Start, Play/Pause, End and the mouse/keyboard slider; Entrance
+view focuses the detail. Closed native pose is saved; operate-door.mjs exposes
+setDoorOpening(mib, sceneData, fromFraction, toFraction) through the public API.
+Native elements remain independently editable. Gallery playback is presentation
+state, not native timeline animation. The whole leaf rotation survives native
+undo, redo and serialized reopen.
+Chosen full-size dimensions: 1.18 m leaf, approximately 1.14 m clear width at
+90°, 2.15 m clear head; five 176 mm risers, four 290 mm goings, 1.05 m landing.
+The landing meets the deck and threshold; stair bases meet the exhibit plinth.
+The centre mullion and obstructing stays are replaced by paired portal-side
+supports and suspension rods ending above the door head. Two circular rails
+stop at the portal. This is an illustrative architectural adaptation, not a
+measured historic door or a verified structural load-transfer detail.
+91 one-degree poses found no penetrations in 481 convex candidate-pair checks;
+the two interrupted rails use a separate polar gap check. Hinges intentionally
+contact the jamb and are excluded. No continuous tolerance proof is claimed.
+Glass: pale neutral blue-green, alpha 0.22; museum glazing alpha 0.28. Native
+palette and public viewing export retain these values. Gallery glazing has
+roughness 0.15 and does not cast opaque shadows. Transparent layers can retain
+normal real-time blending/sorting limitations. No modeller software changes.
+Checks: node check-entrance.mjs; python check-door-sweep.py; node check-repairs.mjs.
+Rebuild with node extend.mjs (calls entrance.mjs); no one-off patch is required.
 
 
 PUBLIC EDITION
