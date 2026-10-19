@@ -1,0 +1,141 @@
+SCOPE
+Illustrative studies of documented mechanisms, with independent display dimensions.
+No measured historic specimens, fabrication tolerances or structural certification.
+The Kawai-inspired study is modern, and explicitly distinguished from traditional joints.
+
+01 Koshikake aritsugi / Dovetailed lap
+https://www.aisf.or.jp/~jaanus/deta/k/koshikakearitsugi.htm
+280 × 280 mm section · 1,520 mm assembled length · half-depth seat
+A dovetail drops into its socket while the projecting seat supports the overlapping timber.
+Assembly: Lower the dovetailed member vertically onto the lap seat.
+
+02 Hirahozo / Mortise & tenon
+https://www.aisf.or.jp/~jaanus/deta/h/hirahozo.htm
+280 × 320 mm post · 260 × 280 mm rail · 100 × 160 mm tenon
+A rectangular tenon and four shoulders locate a rail against a mortised upright.
+Assembly: Slide the tenon horizontally through the mortise until all four shoulders seat.
+
+03 Aikaki-tsugi / Corner half-lap
+https://kakuritools.com/blogs/woodworking-guides/japanese-wood-joinery-hand-tools
+240 × 240 mm rails · 120 mm rebates · 840 mm lengths
+Two half-depth rebates meet at a corner, preserving the full assembled thickness.
+Assembly: Lower the upper rail vertically until the two rebates meet.
+
+04 Kanawa-tsugi / Pinned oblique scarf
+https://www.aisf.or.jp/~jaanus/deta/k/kanawatsugi.htm
+320 mm deep × 320 mm wide · 1,200 mm scarf · 60 mm engagement
+Oblique cheeks, blind end tongues and a separate central pin create a joint that must engage before it can lock.
+Assembly: Bring the cheeks together · draw the tongues into their pockets · insert the central pin.
+
+05 Okkake daisen-tsugi / Twin-pinned scarf
+https://www.aisf.or.jp/~jaanus/deta/o/okkakedaisentsugi.htm
+320 × 360 mm section · 1,100 mm stepped scarf · two 50 × 70 mm pins
+Reversed stepped scarf faces enter from the side. Two independent pins then secure the joined beam.
+Assembly: Slide sideways into the scarf · insert the first pin · insert the second.
+
+06 Ōire mechigaitsuki ariotoshi / Housed blind dovetail
+https://www.aisf.or.jp/~jaanus/deta/a/ariotoshi.htm
+360 mm deep receiving beam · 40 mm housing · 180 mm deep dovetail
+The beam shoulder enters a shallow housing while the upper dovetail seats in a deeper, half-blind pocket. The interlock is concealed from the side.
+Assembly: Lower the dovetail into its pocket while seating the full-height shoulder.
+
+07 Nuki · kusabi / Wedged crossing ties
+https://www.aisf.or.jp/~jaanus/deta/n/nuki.htm
+400 mm post · two 140 × 200 mm ties · 60 mm opposing wedge pairs
+Two penetrating ties meet a post at separate levels. Opposing hardwood wedges close the gaps above the ties in four assembly stages.
+Assembly: Insert the lower tie · insert the upper tie · seat the lower wedges · seat the upper wedges.
+
+08 Koshikake kama-tsugi / Gooseneck lap splice
+https://www.aisf.or.jp/~jaanus/deta/k/kamatsugi.htm
+320 mm square section · 380 mm head and neck · half-depth seat
+A narrow neck leads to a broad hooked head. The matching socket resists lengthwise separation while a lower seat supports the lap.
+Assembly: Lower the gooseneck into its matching socket and seat the lap.
+
+REFERENCE AND INTERPRETATION NOTES
+The JAANUS Kanawa illustration was inspected before constructing the scarf.
+Additional comparison: photographed hand-made Kanawa and Kama models by Big
+Sand Woodworking, https://www.bigsandwoodworking.com/product/joinery-models/
+Andrew Hunter's public layout discussion was also consulted:
+https://www.finewoodworking.com/2019/09/26/open-the-door-to-japanese-joinery
+No source photographs or drawings are redistributed.
+
+04 preserves oblique cheeks, central-depth blind end tongues, receiving
+rabbets, and a central komisen. Its 60 mm pocket-entry allowance and dimensions
+are an illustrative reconstruction, not a traced copy of a particular specimen.
+05 interprets JAANUS's reversed oblique, housed and rabbeted scarf description;
+the reference image was unavailable. Its explicit stepped profile is an
+illustrative interpretation, not a measured tracing. Two pins enter in sequence.
+06 follows variant 2 of the JAANUS ariotoshi entry. The upper dovetail is visible
+from above, concealed from the side, and seated with a full-height shallow housing.
+It is half-blind, not a joint concealed on every face.
+07 combines two nuki at separate orthogonal levels in a single post. The overall
+arrangement is illustrative; it is not a reconstruction of a named temple node.
+Nuki and kusabi descriptions: https://www.aisf.or.jp/~jaanus/deta/k/kusabi.htm
+The opposing wedges close a nominal gap. Timber compression, wedge preload,
+friction, insertion force and swelling are not simulated.
+08 includes a gooseneck with a lap seat. It does not include the extra L-shaped
+blind tenons of the mechigai variant. This distinction is intentional.
+The first three simpler studies remain as introductory comparisons.
+
+
+09 Shihō kama-tsugi / The four-faced interlock
+https://www.aisf.or.jp/~jaanus/deta/s/shihouari.htm
+480 mm square post · 1,300 mm tall · 420 mm interlocking zone
+Goosenecks appear on all four faces. Their hidden cutting direction runs across the diagonal of the post, allowing the two undercut halves to slide past one another.
+Assembly: Follow the diagonal, then orbit the seated joint to read the four faces.
+Interpretation: Illustrative diagonal-prismatic gooseneck profile clipped to a square post. JAANUS shihouari describes the common diagonal construction and its shihoukama variant.
+
+10 Kai-no-kuchi · blind tongues / Concealed shell-mouth
+https://www.bigsandwoodworking.com/kai-no-kuchi-splicing-joint/
+480 mm square · 600 mm cheeks · four 45 mm blind tongues · 4 mm central relief
+Four long triangular cheeks exchange places around the post. At both ends, small integral tongues disappear into blind pockets in the opposite shoulder.
+Assembly: Open the post to find the four hidden tongues. Lower it again and watch the seams close.
+Interpretation: Independent dimensional interpretation of Jon / Big Sand Woodworking blind kai-no-kuchi photographs (DSCF9207, 9205, 9204 and 1801). Triangular stub tongues, blind pockets and opposing triangular cheeks. Deliberate 4 mm central relief and inset tongue proportions, not a measured replica.
+
+11 Kawai tsugite · geometric study / One cut, three directions
+https://woodgears.ca/puzzles/3way_joint.html
+480 mm cube · three cyclic orientations · tailored sector angles and central core (see notes)
+Three interlocking fingers share a cubic centre. Reorient the moving member to form a straight splice or two different corners. A modern geometric study after Kawai’s invention.
+Assembly: Separate before choosing an orientation. Each configuration closes along the same body diagonal.
+Interpretation: Geometric construction after Matthias Wandel’s photographed six-sector cube demonstration; independent dimensions. Explicit kernel accommodation: sector boundaries offset by 0.4 degrees, alternating 59.2/60.8 degree sectors, plus a 4 mm radial central core assigned to the moving half. Halves are complementary, not identical. Threefold cyclic symmetry is preserved. Modern Kawai-inspired study, not a measured replica or attributed to ancient Japanese craft.
+
+NEW REFERENCE INSPECTION
+Shell-mouth: Jon / Big Sand Woodworking, photographed work (2024). Inspected
+DSCF9207 (separate blind-tongue halves), DSCF9205 (engagement close-up) and DSCF1801
+(assembly). Our triangular tongues and relief dimensions are independent choices.
+Kawai: Matthias Wandel's original construction account, especially 3way18.jpg
+and 3way24.jpg showing the six-sector cube and its complementary three fingers.
+The original equal-sector construction failed in the current contact kernel.
+kawai-kernel-repro.mjs/.json records a four-feature reproduction, with the exact
+error 'Ambiguous near-coincident supports; no welding permitted'.
+The delivered adaptation uses 0.4-degree boundary offsets, alternating 59.2 and
+60.8-degree sectors, and a 4 mm radial central core allocated to the moving half.
+This preserves threefold cyclic symmetry, but the halves are NOT identical.
+These are deliberate, disclosed modifications, not a claim that the reference
+was reproduced exactly. No third-party photos or drawings are redistributed.
+
+12 Sanpō tome-tsugi / The locked mitred corner
+https://suikoushya.com/2021/07/18/japanesejoinery-3waymiterjoint/
+480 mm square stock · 1,280 mm arms · two 60 mm square integral upright tenons.
+Reference: carpenter Takami Kawai's demonstration, video mOopMap5v6A.
+Inspected separated rail at 0:15, joined rails at 0:24 and upright at 0:35.
+Two crossed, staggered rail tongues engage horizontally before the upright's
+twin tenons descend into blind mortises. Three compound mitres close the exterior.
+Dimensions, tongue positions and cut depths are independent estimates. This is
+a mechanism reconstruction, not a measured copy of the craftsman's specimen.
+The final upper tongue is 10 mm below the first layout, avoiding a coincident
+edge that the current display triangulator rejected. The final exact solids
+validate; no display mesh replacement or kernel change was used.
+Animation: rails engage over 0–52%; upright lowers over 52–100%. Reverse lifts
+the upright completely before withdrawing the sliding rail.
+
+
+PUBLIC EDITION
+Twelve illustrative studies, 117 visible elements and 33 joint members.
+View-only geometric display and reversible presentation animation.
+The source authoring history is retained privately, not distributed here.
+The assembled viewing model preserves member identities, coordinates and faces.
+Sampled collision checks: 4,343 pairs, zero failures above 1e-9 m3.
+Study 12: 21 exact intersection probes return zero overlap.
+Sampled checks are not a continuous collision or fabrication certificate.
+No force, friction, timber deformation or structural simulation.
