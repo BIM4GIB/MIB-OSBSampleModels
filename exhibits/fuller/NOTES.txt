@@ -146,8 +146,8 @@ setDoorOpening(mib, sceneData, fromFraction, toFraction) through the public API.
 Native elements remain independently editable. Gallery playback is presentation
 state, not native timeline animation. The whole leaf rotation survives native
 undo, redo and serialized reopen.
-Chosen full-size dimensions: 1.18 m leaf, approximately 1.14 m clear width at
-90°, 2.15 m clear head; five 176 mm risers, four 290 mm goings, 1.05 m landing.
+Chosen full-size dimensions: 1.18 m leaf, approximately 1.14 m leaf-to-jamb width at
+90° (1.08 m at the projecting handle), 2.15 m clear head; five 176 mm risers, four 290 mm goings, 1.05 m landing.
 The landing meets the deck and threshold; stair bases meet the exhibit plinth.
 The centre mullion and obstructing stays are replaced by paired portal-side
 supports and suspension rods ending above the door head. Two circular rails
