@@ -44,7 +44,8 @@ section lofts. Carbondale panels and window bays are bounded extrusions,
 including openings. Concealed connections and fabrication are deferred.
 The Dymaxion has 48 roof sectors and 24 simplified radial floor spokes;
 the interior is illustrative fit-out, not the historic measured layout.
-The Montreal inner building is simplified massing.
+The Montreal museum now has 2,193 separately named architectural elements.
+Its volumes, levels and dimensions are photographic estimates; see below.
 The Montreal rods use the modeller's ordinary editable polygonal extrusion
 constructor. They are checked through the complete model build, but do not
 carry an analytic exact-solid document. Expanding all of them as analytic
@@ -92,11 +93,44 @@ to floating-point tolerance (less than 4e-15 m in the checks).
 30,096 triangle-pair checks across 99 intermediate poses found zero strict
 interior crossings. Shared edges and vertices are excluded; the checks use
 ideal zero-thickness facets, not a continuous physical collision proof.
-Full model: 3,235 elements; 334 new editable polygonal extrusions. A separate
+Full model: 5,446 elements; 2,557 added editable polygonal extrusions, with 12 old museum placeholders removed. A separate
 representative triangular extrusion passed the exact solid check, but the
 new native elements do not carry individual analytic solid documents.
 Placement editing survives undo/redo and serialized save/reopen.
-The earlier 651 analytic exact elements remain unchanged.
+643 retained analytic elements remain exact solids; 24 floor spokes have corrected placement.
+
+MONTREAL MUSEUM RECONSTRUCTION
+Primary architectural reference inspected:
+https://dma-arch.com/en/projects/la-biosphere-musee-de-lenvironnement
+https://dma-arch.com/storage/projects/55-image-1582143637-0.jpg
+Photographic survey inspected: Giuliano Ottaviani, published 28 August 2017:
+https://divisare.com/projects/364946-richard-buckminster-fuller-giuliano-ottaviani-montreal-biosphere
+Official conservation scope, including belvedere, columns and escape stairs:
+https://espacepourlavie.ca/la-biosphere-restauree-details-des-travaux
+The photographs establish staggered enclosed galleries, exposed steel supports,
+open terraces, framed curtain walls, the circulation tower and external stairs.
+The later museum is credited to Eric Gauthier / DMA and collaborators, separately
+from Fuller and Sadao's dome. Reference photographs are linked, not redistributed.
+Estimated working levels: reception 0.28 m; promenade 6 m; middle gallery 9 m;
+belvedere 23 m; panoramic roof 27.82 m; tower crown 33.25 m. Display scale 1:10.
+Plan coordinates, floor heights, member sizes, facade divisions, stairs and
+fittings are architectural approximations, not an as-built survey. Concealed
+connections, services, exhibits and code compliance are outside this study.
+The courtyard is an actual floor opening; the galleries have separate thin
+panels around usable space. Supported floor assemblies replace solid blocks.
+Hide dome / Show dome exposes the museum and refits the camera for inspection.
+Reproduce with node extend.mjs; it calls rebuild-montreal.mjs after repair-house.mjs.
+Run node check-museum.mjs for names, selected bearing contacts and envelope checks.
+The 2,193 museum elements use ordinary bounded editable polygonal extrusions;
+they are checked by the full build but lack individual analytic exact documents.
+
+THIRD-EDITION REPAIRS
+The floor-spoke centres rise 55 mm in full-size working coordinates, so all
+24 spokes meet the deck underside (27.5 mm at exhibition scale). The table
+has a continuous foot/pedestal/tabletop assembly. Two complete chairs, bed
+headboards and pillows, cabinet doors and pulls finish the illustrative fit-out.
+Contact bounds, placement undo/redo and serialized reopen pass check-repairs.mjs.
+The existing browser scene is preserved; this revision opens separately.
 
 NEXT POSSIBILITY
 A Fly's Eye Dome, with its characteristic circular openings:
