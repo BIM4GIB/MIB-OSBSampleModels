@@ -1,9 +1,9 @@
 import * as THREE from 'three';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {sphereNodes,advance} from './motion.js?rev=46a4f29df8878741';
+import {sphereNodes,advance} from './motion.js?rev=c54822b9f43bbbfa';
 import {geometry} from './geometry.js';
-import {jitterFaces,mapPose,icosaProgress} from './transformations.js?rev=46a4f29df8878741';
-const startTime=performance.now(),$=s=>document.querySelector(s),data=await(await fetch('./scene.json?rev=46a4f29df8878741')).json();
+import {jitterFaces,mapPose,icosaProgress} from './transformations.js?rev=c54822b9f43bbbfa';
+const startTime=performance.now(),$=s=>document.querySelector(s),data=await(await fetch('./scene.json?rev=c54822b9f43bbbfa')).json();
 const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.6));renderer.setSize(innerWidth,innerHeight);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;$('#view').append(renderer.domElement);renderer.domElement.tabIndex=0;renderer.domElement.setAttribute('aria-label','Fuller models. Drag to orbit, right drag to pan, scroll to zoom.');
 const scene=new THREE.Scene();scene.background=new THREE.Color('#e8e6de');scene.fog=new THREE.Fog('#e8e6de',55,110);const camera=new THREE.PerspectiveCamera(35,innerWidth/innerHeight,.03,180);camera.up.set(0,0,1);const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.09;controls.maxPolarAngle=Math.PI*.49;controls.minDistance=2;controls.maxDistance=75;
 const hemi=new THREE.HemisphereLight('#fcf7ea','#7d9393',2);hemi.position.set(0,0,20);scene.add(hemi);const sun=new THREE.DirectionalLight('#fff3db',2.5);sun.position.set(-13,-17,28);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-20,right:20,top:20,bottom:-20,near:1,far:80});sun.shadow.normalBias=.018;sun.shadow.bias=-.0001;scene.add(sun);scene.add(sun.target);
